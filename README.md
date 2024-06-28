@@ -5,15 +5,16 @@ This repository contains example codes demonstrating various Object-Oriented Pro
 
 ## Files
 
-1. **abstract_class.cpp**: Demonstrates abstract classes and pure virtual functions.
-2. **abstraction.cpp**: Demonstrates abstraction using abstract classes.
-3. **class_object.cpp**: Demonstrates basic class and object creation.
-4. **encapsulation.cpp**: Demonstrates encapsulation by restricting direct access to data members.
-5. **inheritance.cpp**: Demonstrates inheritance and the use of base and derived classes.
-6. **method_overloading.cpp**: Demonstrates method overloading within a class.
-7. **method_overriding.cpp**: Demonstrates method overriding using virtual functions.
-8. **operator_overloading.cpp**: Demonstrates operator overloading for custom types.
-9. **polymorphism.cpp**: Demonstrates polymorphism through base class pointers and virtual functions.
+1. **abstract_class**: Demonstrates abstract classes and pure virtual functions.
+2. **abstraction**: Demonstrates abstraction using abstract classes.
+3. **class_object**: Demonstrates basic class and object creation.
+4. **encapsulation**: Demonstrates encapsulation by restricting direct access to data members.
+5. **inheritance**: Demonstrates inheritance and the use of base and derived classes.
+6. **method_overloading**: Demonstrates method overloading within a class.
+7. **method_overriding**: Demonstrates method overriding using virtual functions.
+8. **operator_overloading**: Demonstrates operator overloading for custom types.
+9. **polymorphism**: Demonstrates polymorphism through base class pointers and virtual functions.
+
 
 ## Getting Started
 
