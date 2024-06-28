@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+class Car {
+public:
+    string brand;
+    string model;
+    int year;
+
+    void printDetails() {
+        cout << "Brand: " << brand << ", Model: " << model << ", Year: " << year << endl;
+    }
+};
+
+int main() {
+    Car car1;
+    car1.brand = "Toyota";
+    car1.model = "Corolla";
+    car1.year = 2020;
+
+    car1.printDetails(); // Outputs: Brand: Toyota, Model: Corolla, Year: 2020
+    return 0;
+}
