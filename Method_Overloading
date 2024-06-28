@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+class Print {
+public:
+    void display(int i) {
+        cout << "Displaying int: " << i << endl;
+    }
+
+    void display(double f) {
+        cout << "Displaying float: " << f << endl;
+    }
+
+    void display(string s) {
+        cout << "Displaying string: " << s << endl;
+    }
+};
+
+int main() {
+    Print p;
+    p.display(5);        // Outputs: Displaying int: 5
+    p.display(3.14);     // Outputs: Displaying float: 3.14
+    p.display("Hello");  // Outputs: Displaying string: Hello
+    return 0;
+}
