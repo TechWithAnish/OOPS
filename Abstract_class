@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+// Abstract class
+class Animal {
+public:
+    // Pure virtual function
+    virtual void makeSound() = 0;
+
+    // Regular method
+    void breathe() {
+        cout << "Breathing..." << endl;
+    }
+};
+
+// Derived class
+class Dog : public Animal {
+public:
+    void makeSound() override {
+        cout << "Bark" << endl;
+    }
+};
+
+int main() {
+    // Animal a; // This will give an error
+    Dog dog;
+    dog.makeSound(); // Outputs: Bark
+    dog.breathe();   // Outputs: Breathing...
+    return 0;
+}
