@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+class Base {
+public:
+    virtual void show() {
+        cout << "Base class show function called." << endl;
+    }
+};
+
+class Derived : public Base {
+public:
+    void show() override {
+        cout << "Derived class show function called." << endl;
+    }
+};
+
+void display(Base* b) {
+    b->show();
+}
+
+int main() {
+    Base b;
+    Derived d;
+
+    display(&b); // Outputs: Base class show function called.
+    display(&d); // Outputs: Derived class show function called.
+    return 0;
+}
